@@ -1,25 +1,22 @@
-# ReduxSimpleStarter
+## About
+Weather is a small weather application written in React using Redux. It lets you search for a city and it displays the on going temperature, humidity, and pressure in neat graphs, as well as a Google Maps frame of the actual location.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+## Usage
 
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
+After cloning the repository, run the following command to install the application's dependencies.
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
+$ npm install
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+To run the app
+```
+$ npm start
+```
 
-```
-	> npm install
-	> npm start
-```
+### Technical Stack
+
+* [Node Package Manager](https://www.npmjs.com)
+* JavaScript (ES6)
+* [Redux](http://redux.js.org)
+* [React](https://facebook.github.io/react/)
+* [Webpack](http://webpack.github.io)
